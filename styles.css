@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s;
+    letter-spacing: 0.32px;
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+nav img {
+    background-color: white;
+    margin-left: -20px;
+    background-size: 50%;
+    width: 53vh;
+    padding: 23px;
+    height: 14vh;
+    margin-top: -23px;
+
+}
+
+.nav-link {
+    color: #0b3046;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.z {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.toll {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.first2{
+    background-color: #dcdad7;
+}
+.first h2 {
+    align-items: start;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #0b3046;
+}
+
+.first h1 {
+    font-size: 4.6rem;
+    font-weight: 900;
+    line-height: 80px;
+    color: #0b3046;
+}
+
+.first img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 10px solid white;
+    border-radius: 10px;
+    /* margin: 0px 70px; */
+}
+
+.first1 img{
+    width: 9.5%;
+    border: none;
+}
+
+.second{
+    background-color: #56728c;
+    color: white;
+}
+
+/* .second1{
+    /* line-height: 50px;
+} */
+.second1 p{
+   color: #0b3046;
+   font-size: 25px;
+   font-weight: 800;
+    /* line-height: 0px; */
+}
+.second1 h3{
+    font-size: 2.3rem;
+    font-weight: 900;
+ }
+
+.third h2{
+    color: #0b3046;
+    font-size: 3.5rem;
+    font-weight: 800;
+     /* line-height: 0px; */
+}
+.third h3{
+    color: #56728c;
+    font-size: 2.3rem;
+    font-weight: 400;
+
+}
+.third .card{
+    background-color: #56728c;
+    border: solid white;
+}
+.third .card-body{
+    padding: 30px;
+}
+.third h5{
+    margin-top: 10px;
+    margin-bottom: 22px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+.third p{
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+
+.fourth h3{
+    color: #0b3046;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.fourth p{
+    color: #56728c;
+    font-size: 1.3rem;
+}
+
+.fifth{
+    background: url(Give-up-bg.png);
+    background-attachment: fixed;
+}
+.fifth .card{
+    background: url(give-up-block.png);
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 83%;
+}
+.fifth h5{
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.fifth p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 38px;
+}
+.sixth img{
+    margin-right: -500%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 999;
+}
+.sixth h2{
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: #0b3046;
+}
+.sixth p{
+    font-size: 1.2rem;
+    font-weight: 450;
+    color: #56728c;
+
+}
+
+.seventh{
+    background-color: #0b3046;
+    color: white;
+    position: relative;
+    margin-top: -20%;
+    padding-top: 80px;
+}
+.seventh h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.seventh span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #56728c;
+}
+.seventh button{
+    padding: 15px 60px;
+    color: #0b3046;
+    font-size: 1.8rem;
+    font-weight: 500;
+    /* position: relative; */
+}
+.seventh1{
+    margin-top: 17%;
+}
+.eight{
+    margin-top: -23%;
+    margin-left: 7%;
+    z-index: 999;
+}
+.eight .card-body{
+    width: 60%;
+    background: url(disability-bg.png);
+    background-color: #56728c;
+    border: none;
+    z-index: 999;
+    position: relative;
+    padding: 30px;
+    height: auto;
+
+}
+.eight p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 450;
+    font-style: italic;
+    line-height: 35px;
+    
+}
+.eight hr{
+    border: solid 4px white;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    nav img {
+        background-color: white;
+        margin-left: -20px;
+        background-size: 50%;
+        width: 100%;
+        padding: 23px;
+        height: 14vh;
+        margin-top: -23px;
+    
+    }
+    .first img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .first h2 {
+        align-items: start;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    
+    .first h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 80px;
+        color: #0b3046;
+    }
+    .first1 img{
+        width: 9.5%;
+        border: none;
+    }
+    .eight{
+       display: none;
+    }
+    .nav-link {
+       display: none;
+    }
+    
+    .z {
+        display: none;
+    }
+    
+    .toll {
+        display: none;
+    }
+    
+}
+footer h5{
+    font-size: 1rem;
+    color: #56728c;
+
+}
