@@ -237,7 +237,7 @@ nav img {
         background-size: 50%;
         width: 100%;
         padding: 23px;
-        height: 14vh;
+        height: 20%;
         margin-top: -23px;
     
     }
@@ -275,6 +275,54 @@ nav img {
     
     .toll {
         display: none;
+    }
+    .third h2 {
+        color: #0b3046;
+        font-size: 2.3rem;
+        font-weight: 800;
+        /* line-height: 0px; */
+    }
+    
+    .third h3 {
+        color: #56728c;
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+    .fourth h3 {
+        color: #0b3046;
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+
+    .fourth p {
+        color: #56728c;
+        font-size: 1.1rem;
+    }
+    .sixth h2 {
+        font-size: 2.4rem;
+        font-weight: 800;
+        color: #0b3046;
+    }
+    .sixth p {
+        font-size: 1.07rem;
+        font-weight: 450;
+        color: #56728c;
+    }
+    .seventh h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .seventh span {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #56728c;
+    }
+    .seventh button {
+        padding: 13px 52px;
+        color: #0b3046;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: 10px;
     }
     
 }
