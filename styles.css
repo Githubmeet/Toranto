@@ -253,7 +253,7 @@ nav img {
     }
     
     .first h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
         font-weight: 700;
         line-height: 80px;
         color: #0b3046;
@@ -324,7 +324,32 @@ nav img {
         font-weight: 500;
         margin-top: 10px;
     }
-    
+    .second1 p {
+        color: #0b3046;
+        font-size: 23px;
+        font-weight: 800;
+        line-height: 19px;
+    }
+    .second1 h3 {
+        font-size: 1.9rem;
+        font-weight: 900;
+    }
+
+    .sixth img {
+        margin-left: 5%;
+        width: 89%;
+        height: auto;
+        position: relative;
+        z-index: 999;
+    }
+
+    .seventh {
+        background-color: #0b3046;
+        color: white;
+        position: relative;
+        margin-top: -23%;
+        padding-top: 80px;
+    }
 }
 footer h5{
     font-size: 1rem;
